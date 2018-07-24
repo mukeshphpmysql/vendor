@@ -12,7 +12,7 @@
     <menu>
         <add id="Mukesh_Catalog::mukesh" title="Mukesh" translate="title" module="Mukesh_Catalog" sortOrder="20" dependsOnModule="Mukesh_Catalog" resource="Mukesh_Catalog::mukesh"/>
 
-        <add id="Mukesh_Catalog::catalog_products" title="Products" translate="title" module="Mukesh_Catalog" sortOrder="10" parent="Mukesh_Catalog::mukesh" action="mukesh_catalog/product/" resource="Mukesh_Catalog::products"/>
+        <add id="Mukesh_Catalog::products" title="Products" translate="title" module="Mukesh_Catalog" sortOrder="10" parent="Mukesh_Catalog::mukesh" action="mukesh_catalog/product/" resource="Mukesh_Catalog::products"/>
 
     </menu>
 </config>

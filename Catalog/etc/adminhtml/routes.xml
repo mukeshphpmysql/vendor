@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mukesh_Catalog extension custom catalog
+ * @category  Mukesh
+ * @package   Mukesh_Catalog
+ * @author    Mukesh Patel
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="mukesh_catalog" frontName="mukesh_catalog">
+            <module name="Mukesh_Catalog" before="Magento_Backend" />
+        </route>
+    </router>
+</config>

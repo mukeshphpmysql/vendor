@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Mukesh_Catalog extension custom catalog
+ * @category  Mukesh
+ * @package   Mukesh_Catalog
+ * @author    Mukesh Patel
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Mukesh_Backend::admin">
+                <resource id="Mukesh_Catalog::mukesh" title="Mukesh" translate="title" sortOrder="10">
+                    <resource id="Mukesh_Catalog::products" title="Products" translate="title" sortOrder="10" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>
